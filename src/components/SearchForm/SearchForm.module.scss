@@ -1,0 +1,14 @@
+.form {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  input {
+    padding: 5px 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    width: 190px;
+    &::placeholder {
+      white-space: normal; /* Allow long placeholders to wrap */
+    }
+  }
+}

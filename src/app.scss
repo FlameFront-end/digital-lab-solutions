@@ -7,9 +7,38 @@
   font-family: Roboto, sans-serif;
 }
 
+body {
+  overflow-x: hidden;
+}
+
+button {
+  background-color: inherit;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
 .container {
+  position: relative;
   max-width: 1160px;
   margin: 0 auto;
   padding-left: 20px;
   padding-right: 20px;
+}
+
+.parent {
+  width: 300px; /* Ширина родительского блока */
+  height: 200px;
+  background-color: lightgray;
+  overflow: visible;
+}
+
+.child {
+  width: 400px; /* Ширина дочернего блока больше ширины родительского */
+  height: 100px;
+  background-color: blue;
 }

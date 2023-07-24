@@ -1,0 +1,10 @@
+.separator {
+  position: absolute;
+  left: -9999px;
+  right: -9999px;
+  margin: 0 auto;
+}
+.separator svg {
+  height: 2px;
+  fill: none;
+}
